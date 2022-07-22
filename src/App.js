@@ -63,59 +63,6 @@ import isPlainObject from "lodash/isPlainObject";
 import isRegExp from "lodash/isRegExp";
 import isString from "lodash/isString";
 import isUndefined from "lodash/isUndefined";
-import keys from "lodash/keys";
-import last from "lodash/last";
-import lastIndexOf from "lodash/lastIndexOf";
-import map from "lodash/map";
-import mapValues from "lodash/mapValues";
-import max from "lodash/max";
-import memoize from "lodash/memoize";
-import merge from "lodash/merge";
-import min from "lodash/min";
-import mixin from "lodash/mixin";
-import noConflict from "lodash/noConflict";
-import noop from "lodash/noop";
-import now from "lodash/now";
-import omit from "lodash/omit";
-import once from "lodash/once";
-import partial from "lodash/partial";
-import partialRight from "lodash/partialRight";
-import pick from "lodash/pick";
-import property from "lodash/property";
-import pull from "lodash/pull";
-import random from "lodash/random";
-import range from "lodash/range";
-import reduce from "lodash/reduce";
-import reduceRight from "lodash/reduceRight";
-import reject from "lodash/reject";
-import remove from "lodash/remove";
-import rest from "lodash/rest";
-import result from "lodash/result";
-import runInContext from "lodash/runInContext";
-import sample from "lodash/sample";
-import shuffle from "lodash/shuffle";
-import size from "lodash/size";
-import some from "lodash/some";
-import sortBy from "lodash/sortBy";
-import sortedIndex from "lodash/sortedIndex";
-import tail from "lodash/tail";
-import take from "lodash/take";
-import tap from "lodash/tap";
-import template from "lodash/template";
-import templateSettings from "lodash/templateSettings";
-import throttle from "lodash/throttle";
-import times from "lodash/times";
-import toArray from "lodash/toArray";
-import transform from "lodash/transform";
-import union from "lodash/union";
-import uniq from "lodash/uniq";
-import uniqueId from "lodash/uniqueId";
-import unzip from "lodash/unzip";
-import values from "lodash/values";
-import without from "lodash/without";
-import xor from "lodash/xor";
-import zip from "lodash/zip";
-import zipObject from "lodash/zipObject";
 
 const _ = {
     after,
@@ -181,59 +128,6 @@ const _ = {
     isRegExp,
     isString,
     isUndefined,
-    keys,
-    last,
-    lastIndexOf,
-    map,
-    mapValues,
-    max,
-    memoize,
-    merge,
-    min,
-    mixin,
-    noConflict,
-    noop,
-    now,
-    omit,
-    once,
-    partial,
-    partialRight,
-    pick,
-    property,
-    pull,
-    random,
-    range,
-    reduce,
-    reduceRight,
-    reject,
-    remove,
-    rest,
-    result,
-    runInContext,
-    sample,
-    shuffle,
-    size,
-    some,
-    sortBy,
-    sortedIndex,
-    tail,
-    take,
-    tap,
-    template,
-    templateSettings,
-    throttle,
-    times,
-    toArray,
-    transform,
-    union,
-    uniq,
-    uniqueId,
-    unzip,
-    values,
-    without,
-    xor,
-    zip,
-    zipObject
 }
 
 function App() {
