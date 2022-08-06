@@ -73,7 +73,6 @@ import memoize from "lodash/memoize";
 import merge from "lodash/merge";
 import min from "lodash/min";
 import mixin from "lodash/mixin";
-import noConflict from "lodash/noConflict";
 import noop from "lodash/noop";
 import now from "lodash/now";
 import omit from "lodash/omit";
@@ -191,7 +190,6 @@ const _ = {
     merge,
     min,
     mixin,
-    noConflict,
     noop,
     now,
     omit,
